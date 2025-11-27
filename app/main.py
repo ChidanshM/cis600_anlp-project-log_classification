@@ -4,22 +4,32 @@ from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import StreamingResponse
 from app.services.classifier import ClassificationService
 
-# Initialize the service once (singleton pattern)
-classifier_service = ClassificationService()
-
+# --- FIX 1: Initialize app first ---
 app = FastAPI()
 
-# Initialize service globally so we don't reload models on every request
-service = ClassificationService()
+# --- FIX 2: Initialize service ONLY ONCE ---
+# We do this globally so it persists across requests
+try:
+    service = ClassificationService()
+except Exception as e:
+    print(f"Failed to initialize service: {e}")
+    service = None
 
 @app.post("/classify/")
 async def classify_logs(file: UploadFile):
+    # Check if service loaded correctly
+    if service is None:
+        raise HTTPException(status_code=500, detail="Classification service failed to start.")
+
     if not file.filename.endswith('.csv'):
         raise HTTPException(status_code=400, detail="File must be a CSV.")
     
     try:
         content = await file.read()
         df = pd.read_csv(io.BytesIO(content))
+        
+        # Standardization check: stripping spaces from column names can prevent key errors
+        df.columns = df.columns.str.strip()
         
         if "source" not in df.columns or "log_message" not in df.columns:
             raise HTTPException(status_code=400, detail="CSV must contain 'source' and 'log_message' columns.")
