@@ -22,3 +22,15 @@ project_root/
 ├── requirements.txt
 └── README.md
 ```
+
+
+
+## TEST:
+```bash
+curl -X 'POST' \
+  'http://127.0.0.1:8000/classify/' \
+  -H 'accept: text/csv' \
+  -H 'Content-Type: multipart/form-data' \
+  -F 'file=@tests/test.csv;type=text/csv'
+```
+![1764286319862](image/README/1764286319862.png)
