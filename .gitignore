@@ -1,0 +1,25 @@
+# Environment Variables (Critical for security)
+.env
+
+# Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE Settings (Optional but recommended)
+.vscode/
+.idea/
+*.swp
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
+
+# Models (Optional: if your model is large, you might not want to commit it)
+# models/log_classifier.joblib
