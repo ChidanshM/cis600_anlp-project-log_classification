@@ -4,6 +4,9 @@ from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import StreamingResponse
 from app.services.classifier import ClassificationService
 
+# Initialize the service once (singleton pattern)
+classifier_service = ClassificationService()
+
 app = FastAPI()
 
 # Initialize service globally so we don't reload models on every request

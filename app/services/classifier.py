@@ -38,7 +38,16 @@ class ClassificationService:
             return label
             
         # Stage 2: BERT
-        return self.bert_processor.classify(message)
+        label = self.bert_processor.classify(message)
+        if label != "Unclassified":
+            return label
 
+        # Stage 3: LLM Fallback (for complex/unknown patterns)
+        if self.llm_processor:
+            return self.llm_processor.classify(message)
+
+        return "Unclassified"
+    
     def classify_batch(self, logs: list[tuple[str, str]]) -> list[str]:
         return [self.classify_log(source, msg) for source, msg in logs]
+    
