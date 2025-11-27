@@ -1,25 +1,34 @@
 import requests
 import os
 
-# Define the URL and file path
+# Configuration
 url = "http://127.0.0.1:8000/classify/"
-file_path = "tests/test.csv"
+input_file = "tests/test.csv"
+output_file = "classified_output.csv"  # The file where results will be saved
 
-# Check if file exists first
-if not os.path.exists(file_path):
-    print(f"Error: File not found at {os.path.abspath(file_path)}")
+# Check if input file exists first
+if not os.path.exists(input_file):
+    print(f"Error: File not found at {os.path.abspath(input_file)}")
 else:
     try:
         # Open and send the file
-        with open(file_path, "rb") as f:
-            print(f"Sending {file_path} to {url}...")
+        with open(input_file, "rb") as f:
+            print(f"Sending {input_file} to {url}...")
             files = {"file": ("test.csv", f, "text/csv")}
             response = requests.post(url, files=files)
 
-        # Print the result
+        # Check status
         print(f"Status Code: {response.status_code}")
+        
         if response.status_code == 200:
-            print("\n--- Success! Response Content ---")
+            # Save the content to a file
+            with open(output_file, "w", encoding="utf-8") as f:
+                f.write(response.text)
+            
+            print(f"Success! Classified logs saved to: {os.path.abspath(output_file)}")
+            
+            # Print a preview to the console
+            print("\n--- Preview of Response ---")
             print(response.text)
         else:
             print(f"Error: {response.text}")
