@@ -1,0 +1,1008 @@
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h: In function ‘kh_put_complex64’:
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:151:9: note: in expansion of macro ‘KHASH_INIT’
+        151 |         KHASH_INIT(name, khcomplex64_t, khval_t, 1, kh_complex64_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:153:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX64’
+        153 | KHASH_MAP_INIT_COMPLEX64(complex64, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h: In function ‘kh_get_complex128’:
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:317:91: note: in expansion of macro ‘kh_complex_hash_equal’
+        317 |                         while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                           ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h: In function ‘kh_put_complex128’:
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:34: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:26: error: request for member ‘real’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                          ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:38: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                      ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:45: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                             ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:53: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                     ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:74: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash_python.h:127:60: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                            ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:67: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                   ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:147:66: error: request for member ‘imag’ in something not a structure or union
+        147 |   (kh_floats_hash_equal(a.real, b.real) && kh_floats_hash_equal(a.imag, b.imag))
+            |                                                                  ^
+      pandas/_libs/src/klib/khash_python.h:127:74: note: in definition of macro ‘kh_floats_hash_equal’
+        127 | #define kh_floats_hash_equal(a, b) ((a) == (b) || ((b) != (b) && (a) != (a)))
+            |                                                                          ^
+      pandas/_libs/src/klib/khash.h:393:99: note: in expansion of macro ‘kh_complex_hash_equal’
+        393 |                                 while (!__ac_isempty(h->flags, i) && (__ac_isdel(h->flags, i) || !__hash_equal(h->keys[i], key))) { \
+            |                                                                                                   ^~~~~~~~~~~~
+      pandas/_libs/src/klib/khash.h:426:9: note: in expansion of macro ‘KHASH_INIT2’
+        426 |         KHASH_INIT2(name, PANDAS_INLINE, khkey_t, khval_t, kh_is_map, __hash_func, __hash_equal)
+            |         ^~~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:157:9: note: in expansion of macro ‘KHASH_INIT’
+        157 |         KHASH_INIT(name, khcomplex128_t, khval_t, 1, kh_complex128_hash_func, kh_complex_hash_equal)
+            |         ^~~~~~~~~~
+      pandas/_libs/src/klib/khash_python.h:159:1: note: in expansion of macro ‘KHASH_MAP_INIT_COMPLEX128’
+        159 | KHASH_MAP_INIT_COMPLEX128(complex128, size_t)
+            | ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: At top level:
+      pandas/_libs/algos.c:885:1: warning: ‘Py_UNICODE’ is deprecated [-Wdeprecated-declarations]
+        885 | static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u) {
+            | ^~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_Py_UNICODE_strlen’:
+      pandas/_libs/algos.c:886:5: warning: ‘Py_UNICODE’ is deprecated [-Wdeprecated-declarations]
+        886 |     const Py_UNICODE *u_end = u;
+            |     ^~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_init_assertions_enabled’:
+      pandas/_libs/algos.c:3307:39: warning: implicit declaration of function ‘_PyInterpreterState_GetConfig’; did you mean ‘PyInterpreterState_GetID’? [-Wimplicit-function-declaration]
+       3307 |     __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
+            |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            |                                       PyInterpreterState_GetID
+      pandas/_libs/algos.c:3307:105: error: invalid type argument of ‘->’ (have ‘int’)
+       3307 |     __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
+            |                                                                                                         ^~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyList_Extend’:
+      pandas/_libs/algos.c:3538:22: warning: implicit declaration of function ‘_PyList_Extend’; did you mean ‘PyList_Extend’? [-Wimplicit-function-declaration]
+       3538 |     PyObject* none = _PyList_Extend((PyListObject*)L, v);
+            |                      ^~~~~~~~~~~~~~
+            |                      PyList_Extend
+      pandas/_libs/algos.c:3538:22: warning: initialization of ‘PyObject *’ {aka ‘struct _object *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+      pandas/_libs/algos.c: In function ‘__pyx_pymod_exec_algos’:
+      pandas/_libs/algos.c:3671:38: warning: implicit declaration of function ‘_PyDict_SetItem_KnownHash’; did you mean ‘_PyDict_GetItem_KnownHash’? [-Wimplicit-function-declaration]
+       3671 |     (likely(PyDict_CheckExact(ns)) ? _PyDict_SetItem_KnownHash(ns, name, value, ((PyASCIIObject *) name)->hash) : PyObject_SetItem(ns, name, value))
+            |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c:164401:7: note: in expansion of macro ‘__Pyx_SetNameInClass’
+      164401 |   if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_lt, __pyx_t_3) < 0) __PYX_ERR(0, 84, __pyx_L1_error)
+             |       ^~~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_int’:
+      pandas/_libs/algos.c:176677:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      176677 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_int64’:
+      pandas/_libs/algos.c:176949:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      176949 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_intp’:
+      pandas/_libs/algos.c:177145:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      177145 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_int8’:
+      pandas/_libs/algos.c:177569:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      177569 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_int16’:
+      pandas/_libs/algos.c:177765:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      177765 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_int32’:
+      pandas/_libs/algos.c:177961:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      177961 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_uint8’:
+      pandas/_libs/algos.c:178157:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      178157 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_uint16’:
+      pandas/_libs/algos.c:178353:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      178353 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_uint32’:
+      pandas/_libs/algos.c:178549:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      178549 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_npy_uint64’:
+      pandas/_libs/algos.c:178745:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      178745 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_enum____pyx_t_6pandas_5_libs_5algos_TiebreakEnumType’:
+      pandas/_libs/algos.c:178941:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      178941 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_long’:
+      pandas/_libs/algos.c:179170:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      179170 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/algos.c: In function ‘__Pyx_PyInt_As_char’:
+      pandas/_libs/algos.c:179366:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+      179366 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+             |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/longobject.h:107,
+                       from /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/Python.h:82,
+                       from pandas/_libs/algos.c:46:
+      /home/adhyeta/miniconda3/envs/cis600anlp/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      error: command '/usr/bin/gcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pandas
+Failed to build pandas
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> pandas
